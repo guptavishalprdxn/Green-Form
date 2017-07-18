@@ -48,6 +48,34 @@
 				</div>
 			</fieldset>
 		<!-- form account details -->
+		<!--form personal details -->
+			<div class="personal-details">
+				<fieldset>
+					<legend>Personal Details</legend>
+					<label for="name">Name *</label>
+					<input type="text" id="name" name="name" placeholder="Enter your name" required>
+					<label for="phone">Phone *</label>
+					<input type="tel" name="mobi" id="phone" maxlength="12" placeholder="Enter mobile number" required>
+					<label for="street">Street</label>
+					<input type="text" name="street" id="street" placeholder="Enter street number or name">
+					<label>City *</label>
+					<input type="text" name="city" placeholder="Enter city name" required>
+					<label>Country *</label>
+					<select class="country" name="country" required>
+						<option value="">select country</option>
+						<option value="India">India</option>
+						<option value="Sri Lanka">Sri Lanka</option>
+						<option value="Australia">Australia</option>
+						<option value="Canada">Canada</option>
+						<option value="London">London</option>
+						<option value="Spain">Spain</option>
+						<option value="Portuguese">Portuguese</option>
+					</select>
+					<label for="url-field">Website</label>
+					<input type="url" name="website_url" value="http://" placeholder="http://www.google.com">
+				</fieldset>
+			</div>
+		<!--end form personal details -->
 		</div>
 		<!-- end form wrapper -->
 	</section>
